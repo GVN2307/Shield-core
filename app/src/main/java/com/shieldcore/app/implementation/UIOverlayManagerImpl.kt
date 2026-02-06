@@ -58,7 +58,7 @@ class UIOverlayManagerImpl @Inject constructor(
         }
     }
 
-    override fun createOverlay(bounds: Rect, content: ContentData) {
+    override fun createOverlay(bounds: Rect, content: ContentData): String {
         val overlayId = java.util.UUID.randomUUID().toString()
         
         val composeView = ComposeView(context).apply {
@@ -87,7 +87,8 @@ class UIOverlayManagerImpl @Inject constructor(
             },
             WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or 
             WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN or 
-            WindowManager.LayoutParams.FLAG_WATCH_OUTSIDE_TOUCH,
+            WindowManager.LayoutParams.FLAG_WATCH_OUTSIDE_TOUCH or
+            WindowManager.LayoutParams.FLAG_HARDWARE_ACCELERATED,
             PixelFormat.TRANSLUCENT
         ).apply {
             gravity = Gravity.TOP or Gravity.START
@@ -97,6 +98,7 @@ class UIOverlayManagerImpl @Inject constructor(
 
         windowManager.addView(composeView, params)
         activeOverlays[overlayId] = composeView
+        return overlayId
     }
 
     override fun removeOverlay(overlayId: String) {

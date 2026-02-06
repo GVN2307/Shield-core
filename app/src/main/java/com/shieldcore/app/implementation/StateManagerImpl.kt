@@ -12,7 +12,7 @@ class StateManagerImpl @Inject constructor() : StateManager {
         sensitivityLevels = emptyMap(),
         parentFaceIds = emptyList(),
         privilegeTimeoutMinutes = 60,
-        targetApplications = listOf("com.instagram.android", "com.zhiliaoapp.musically")
+        targetApplications = listOf("com.instagram.android", "com.zhiliaoapp.musically", "com.shieldcore.app")
     )
 
     override fun setMode(mode: SystemMode) {

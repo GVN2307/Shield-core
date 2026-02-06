@@ -22,34 +22,43 @@ class ShieldCoreAccessibilityService : AccessibilityService() {
     @Inject
     lateinit var uiOverlayManager: UIOverlayManager
 
+    private val activeOverlays = mutableMapOf<Int, String>() // contentHash to overlayId
+
     companion object {
         private const val TAG = "ShieldCoreAS"
     }
 
     override fun onAccessibilityEvent(event: AccessibilityEvent) {
-        // Only monitor content if the system is enabled
         if (stateManager.getCurrentMode() == SystemMode.DISABLED) return
 
-        val content = contentInterceptor.onAccessibilityEvent(event)
-        if (content != null) {
-            // Classify the extracted text
+        val contents = contentInterceptor.onAccessibilityEvent(event)
+        val currentEventHashes = mutableSetOf<Int>()
+        
+        for (content in contents) {
+            val contentHash = content.text.hashCode()
             val result = contentClassifier.classifyText(content.text)
             
-            // If harmful content is detected, apply the overlay
             if (result.category != ContentCategory.SAFE && result.category != ContentCategory.UNKNOWN) {
-                Log.d(TAG, "⚠️ Harmful content detected in ${content.sourceApp}: ${result.category}")
+                currentEventHashes.add(contentHash)
+                val existingOverlayId = activeOverlays[contentHash]
                 
-                // Mask the content area
-                uiOverlayManager.createOverlay(content.screenBounds, content)
-                
-                // Log the incident in the system state
-                stateManager.logActivity(ActivityLog(
-                    timestamp = System.currentTimeMillis(),
-                    event = ActivityEvent.CONTENT_BLOCKED,
-                    contentCategory = result.category,
-                    sourceApp = content.sourceApp,
-                    actionTaken = "UI Masking Applied"
-                ))
+                if (existingOverlayId != null) {
+                    uiOverlayManager.updateOverlayPosition(existingOverlayId, content.screenBounds)
+                } else {
+                    val newOverlayId = uiOverlayManager.createOverlay(content.screenBounds, content)
+                    activeOverlays[contentHash] = newOverlayId
+                    Log.d(TAG, "🛡️ Masked segment: ${result.category}")
+                }
+            }
+        }
+        
+        // Reconciliation: Remove overlays that are no longer present in this event
+        val iterator = activeOverlays.entries.iterator()
+        while (iterator.hasNext()) {
+            val entry = iterator.next()
+            if (!currentEventHashes.contains(entry.key)) {
+                uiOverlayManager.removeOverlay(entry.value)
+                iterator.remove()
             }
         }
     }
@@ -58,6 +67,7 @@ class ShieldCoreAccessibilityService : AccessibilityService() {
         Log.d(TAG, "Accessibility Service Interrupted")
         contentInterceptor.stopMonitoring()
         uiOverlayManager.clearAllOverlays()
+        activeOverlays.clear()
     }
 
     override fun onServiceConnected() {
@@ -73,5 +83,6 @@ class ShieldCoreAccessibilityService : AccessibilityService() {
         super.onDestroy()
         contentInterceptor.stopMonitoring()
         uiOverlayManager.clearAllOverlays()
+        activeOverlays.clear()
     }
 }

@@ -7,7 +7,7 @@ import android.view.accessibility.AccessibilityEvent
 interface ContentInterceptor {
     fun startMonitoring(targetPackages: List<String>)
     fun stopMonitoring()
-    fun onAccessibilityEvent(event: AccessibilityEvent): ContentData?
+    fun onAccessibilityEvent(event: AccessibilityEvent): List<ContentData>
     fun registerContentListener(listener: ContentListener)
 }
 
@@ -53,7 +53,7 @@ enum class ContentCategory {
 }
 
 interface UIOverlayManager {
-    fun createOverlay(bounds: Rect, content: ContentData)
+    fun createOverlay(bounds: Rect, content: ContentData): String
     fun removeOverlay(overlayId: String)
     fun updateOverlayPosition(overlayId: String, newBounds: Rect)
     fun clearAllOverlays()

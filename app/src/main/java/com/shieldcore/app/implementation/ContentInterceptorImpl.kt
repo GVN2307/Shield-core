@@ -33,32 +33,22 @@ class ContentInterceptorImpl @Inject constructor() : ContentInterceptor {
         isMonitoring = false
     }
 
-    override fun onAccessibilityEvent(event: AccessibilityEvent): ContentData? {
-        if (!isMonitoring) return null
+    override fun onAccessibilityEvent(event: AccessibilityEvent): List<ContentData> {
+        if (!isMonitoring) return emptyList()
         
-        val packageName = event.packageName?.toString() ?: return null
-        if (!monitoringPackages.contains(packageName)) return null
+        val packageName = event.packageName?.toString() ?: return emptyList()
+        if (!monitoringPackages.contains(packageName)) return emptyList()
 
-        val rootNode = event.source ?: return null
+        val rootNode = event.source ?: return emptyList()
         
         return try {
-            val extractedText = StringBuilder()
-            val bounds = Rect()
+            val results = mutableListOf<ContentData>()
+            traverseNode(rootNode, results, packageName)
             
-            traverseNode(rootNode, extractedText, bounds)
-            
-            if (extractedText.isBlank()) return null
-
-            val content = ContentData(
-                text = extractedText.toString(),
-                metadata = ContentMetadata(),
-                timestamp = System.currentTimeMillis(),
-                sourceApp = packageName,
-                screenBounds = bounds
-            )
-
-            listeners.forEach { it.onContentCaptured(content) }
-            content
+            results.forEach { content ->
+                listeners.forEach { it.onContentCaptured(content) }
+            }
+            results
         } finally {
             rootNode.recycle()
         }
@@ -68,25 +58,27 @@ class ContentInterceptorImpl @Inject constructor() : ContentInterceptor {
         listeners.add(listener)
     }
 
-    private fun traverseNode(node: AccessibilityNodeInfo, textCollector: StringBuilder, boundsCollector: Rect) {
+    private fun traverseNode(node: AccessibilityNodeInfo, results: MutableList<ContentData>, packageName: String) {
         val text = node.text?.toString()
         if (!text.isNullOrBlank()) {
-            if (textCollector.isNotEmpty()) textCollector.append(" ")
-            textCollector.append(text)
-            
             val nodeBounds = Rect()
             node.getBoundsInScreen(nodeBounds)
-            if (boundsCollector.isEmpty) {
-                boundsCollector.set(nodeBounds)
-            } else {
-                boundsCollector.union(nodeBounds)
+            
+            if (!nodeBounds.isEmpty) {
+                results.add(ContentData(
+                    text = text,
+                    metadata = ContentMetadata(),
+                    timestamp = System.currentTimeMillis(),
+                    sourceApp = packageName,
+                    screenBounds = nodeBounds
+                ))
             }
         }
 
         for (i in 0 until node.childCount) {
             val child = node.getChild(i)
             if (child != null) {
-                traverseNode(child, textCollector, boundsCollector)
+                traverseNode(child, results, packageName)
                 child.recycle()
             }
         }

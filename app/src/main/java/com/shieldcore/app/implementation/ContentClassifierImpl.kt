@@ -51,7 +51,7 @@ class ContentClassifierImpl @Inject constructor(
         */
 
         // Requirement 2.2: Detect hate speech, graphic violence with a hybrid approach
-        val hateKeywords = listOf("hate", "kill", "porn", "violent", "abuse", "harm", "toxic", "threat")
+        val hateKeywords = listOf("hate", "kill", "porn", "violent", "abuse", "harm", "toxic", "threat", "test_harmful")
         val isHarmful = hateKeywords.any { text.lowercase().contains(it) }
         
         val category = if (isHarmful) ContentCategory.HATE_SPEECH else ContentCategory.SAFE

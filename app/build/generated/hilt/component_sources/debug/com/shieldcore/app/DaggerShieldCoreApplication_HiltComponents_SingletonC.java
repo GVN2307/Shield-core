@@ -545,7 +545,7 @@ public final class DaggerShieldCoreApplication_HiltComponents_SingletonC {
     }
 
     @Override
-    public void injectShieldCoreApplication(ShieldCoreApplication arg0) {
+    public void injectShieldCoreApplication(ShieldCoreApplication shieldCoreApplication) {
     }
 
     @Override
