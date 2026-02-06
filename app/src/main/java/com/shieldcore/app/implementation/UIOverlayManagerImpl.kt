@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.PixelFormat
 import android.graphics.Rect
 import android.os.Build
+import android.util.Log
 import android.view.Gravity
 import android.view.WindowManager
 import androidx.compose.foundation.background
@@ -39,6 +40,7 @@ class UIOverlayManagerImpl @Inject constructor(
 
     private val windowManager = context.getSystemService(Context.WINDOW_SERVICE) as WindowManager
     private val activeOverlays = mutableMapOf<String, ComposeView>()
+    private val lifecycleOwners = mutableMapOf<String, FunctionalLifecycleOwner>()
 
     private class FunctionalLifecycleOwner : LifecycleOwner, ViewModelStoreOwner, SavedStateRegistryOwner {
         private val lifecycleRegistry = LifecycleRegistry(this)
@@ -56,6 +58,11 @@ class UIOverlayManagerImpl @Inject constructor(
         fun handleLifecycleEvent(event: Lifecycle.Event) {
             lifecycleRegistry.handleLifecycleEvent(event)
         }
+
+        fun clear() {
+            handleLifecycleEvent(Lifecycle.Event.ON_DESTROY)
+            store.clear()
+        }
     }
 
     override fun createOverlay(bounds: Rect, content: ContentData): String {
@@ -67,6 +74,11 @@ class UIOverlayManagerImpl @Inject constructor(
             }
         }
 
+        if (!android.provider.Settings.canDrawOverlays(context)) {
+            Log.e("ShieldOverlay", "Cannot create overlay: SYSTEM_ALERT_WINDOW permission not granted")
+            return ""
+        }
+
         val lifecycleOwner = FunctionalLifecycleOwner()
         lifecycleOwner.handleLifecycleEvent(Lifecycle.Event.ON_CREATE)
         lifecycleOwner.handleLifecycleEvent(Lifecycle.Event.ON_START)
@@ -75,6 +87,8 @@ class UIOverlayManagerImpl @Inject constructor(
         composeView.setViewTreeLifecycleOwner(lifecycleOwner)
         composeView.setViewTreeViewModelStoreOwner(lifecycleOwner)
         composeView.setViewTreeSavedStateRegistryOwner(lifecycleOwner)
+        
+        lifecycleOwners[overlayId] = lifecycleOwner
 
         val params = WindowManager.LayoutParams(
             bounds.width(),
@@ -96,15 +110,30 @@ class UIOverlayManagerImpl @Inject constructor(
             y = bounds.top
         }
 
-        windowManager.addView(composeView, params)
-        activeOverlays[overlayId] = composeView
-        return overlayId
+        try {
+            windowManager.addView(composeView, params)
+            activeOverlays[overlayId] = composeView
+            return overlayId
+        } catch (e: Exception) {
+            Log.e("ShieldOverlay", "Critical error adding view: ${e.message}")
+            lifecycleOwner.clear()
+            lifecycleOwners.remove(overlayId)
+            return ""
+        }
     }
 
     override fun removeOverlay(overlayId: String) {
         activeOverlays[overlayId]?.let {
-            windowManager.removeView(it)
+            try {
+                windowManager.removeView(it)
+            } catch (e: Exception) {
+                Log.e("ShieldOverlay", "Error removing view: ${e.message}")
+            }
             activeOverlays.remove(overlayId)
+        }
+        lifecycleOwners[overlayId]?.let {
+            it.clear() // Explicitly destroy lifecycle and clear ViewModels
+            lifecycleOwners.remove(overlayId)
         }
     }
 

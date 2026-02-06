@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:2:1-73:12
-INJECTED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:2:1-73:12
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:2:1-77:12
+INJECTED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:2:1-77:12
 MERGED from [androidx.compose.material3:material3:1.1.2] C:\Users\veera\.gradle\caches\transforms-3\42ed0b3baf6d767d724469d0777d2791\transformed\material3-1.1.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.hilt:hilt-work:1.1.0] C:\Users\veera\.gradle\caches\transforms-3\b0e17c965bb752b450aa8a3dd5fa64f5\transformed\hilt-work-1.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.dagger:hilt-android:2.48] C:\Users\veera\.gradle\caches\transforms-3\6020c5b1f80c12f5e1834aaa830d3761\transformed\hilt-android-2.48\AndroidManifest.xml:16:1-19:12
@@ -42,17 +42,16 @@ MERGED from [androidx.fragment:fragment:1.5.1] C:\Users\veera\.gradle\caches\tra
 MERGED from [androidx.activity:activity:1.8.2] C:\Users\veera\.gradle\caches\transforms-3\e2e20cc462bc14fef6e54d190414405d\transformed\activity-1.8.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\veera\.gradle\caches\transforms-3\d06e45e50023e3d0e3ea70608c8e6ecf\transformed\activity-compose-1.8.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\veera\.gradle\caches\transforms-3\590b5525abd3f9a90c42615eaf99da3c\transformed\activity-ktx-1.8.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\da57f7b2cd33829e94170b4713b865ad\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\012b339cd69a0aab1ec8c7cc14242e67\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.work:work-runtime-ktx:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\964589c98d306bc99b16c90d3a54e5a9\transformed\work-runtime-ktx-2.9.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:17:1-145:12
 MERGED from [androidx.emoji2:emoji2:1.4.0] C:\Users\veera\.gradle\caches\transforms-3\1565938ec95e33fa6e3eefae446fec86\transformed\emoji2-1.4.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\8f718bb9a7f02672483432a0cf862eb0\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:17:1-35:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\cc5529ddc109e0d01b073621412c5acd\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\9056b554b7d07324014e36b04331f78a\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\9da2987030819b116cb4d8f109dbde56\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\veera\.gradle\caches\transforms-3\36321377d73b9b66e3d233f579a1fbea\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\2c705c29df089d07afedd449c6184c24\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\da57f7b2cd33829e94170b4713b865ad\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\012b339cd69a0aab1ec8c7cc14242e67\transformed\savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\a4a8d3862cb41fa0a515ade2e78117f0\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\bc41262559046fb33ad2bdbe7a9709ff\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] C:\Users\veera\.gradle\caches\transforms-3\3381305d9d1d1e649d87676175d902bf\transformed\customview-poolingcontainer-1.0.0\AndroidManifest.xml:17:1-23:12
@@ -66,6 +65,7 @@ MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\vee
 MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\veera\.gradle\caches\transforms-3\c0e135c1df1de277bb4da0483e6ae611\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\b093a307018c483ea8927c251519fa46\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\9da2987030819b116cb4d8f109dbde56\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\f0b53efac017bd9543cb74760d636352\transformed\lifecycle-service-2.7.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\254df29d4659d5271c9d403dc7f48788\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Users\veera\.gradle\caches\transforms-3\8cbae7e9a757a782d1b06c04156831cd\transformed\datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
@@ -121,33 +121,37 @@ MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\tra
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:26:5-77
 	android:name
 		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:8:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_SPECIAL_USE
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:9:5-89
+	android:name
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:9:22-86
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:9:5-68
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:10:5-68
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:5-68
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:23:5-68
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:9:22-65
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:10:22-65
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:10:5-81
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:11:5-81
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:25:5-81
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:25:5-81
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:10:22-78
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:11:22-78
 uses-feature#android.hardware.camera
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:13:5-84
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:5-84
 	android:required
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:13:58-81
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:58-81
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:13:19-57
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:19-57
 uses-feature#android.hardware.camera.front
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:5-90
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:15:5-90
 	android:required
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:64-87
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:15:64-87
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:19-63
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:15:19-63
 application
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:16:5-71:19
-INJECTED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:16:5-71:19
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:17:5-75:19
+INJECTED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:17:5-75:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\2cbe9dbad03ca9e8209099210ce0db8f\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\2cbe9dbad03ca9e8209099210ce0db8f\transformed\ui-tooling-release\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\c94b0a7fa3fa67b0dbc8871727c2e90d\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:22:5-26:19
@@ -201,99 +205,105 @@ MERGED from [com.google.android.odml:image:1.0.0-beta1] C:\Users\veera\.gradle\c
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:24:9-35
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:25:9-35
 	android:label
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:23:9-41
 	android:fullBackupContent
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:20:9-54
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:21:9-54
 	android:roundIcon
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:23:9-54
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:24:9-54
 	tools:targetApi
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:26:9-29
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:27:9-29
 	android:icon
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:21:9-43
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:22:9-43
 	android:allowBackup
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:25:9-48
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:26:9-48
 	android:dataExtractionRules
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:19:9-65
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:20:9-65
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:17:9-46
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:18:9-46
 activity#com.shieldcore.app.ui.MainActivity
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:29:9-38:20
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:30:9-39:20
 	android:label
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:32:13-45
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:33:13-45
 	android:exported
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:31:13-36
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:32:13-36
 	android:theme
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:33:13-52
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:34:13-52
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:30:13-44
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:31:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:34:13-37:29
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:35:13-38:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:35:17-69
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:36:17-69
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:35:25-66
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:36:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:36:17-77
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:37:17-77
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:36:27-74
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:37:27-74
 service#com.shieldcore.app.accessibility.ShieldCoreAccessibilityService
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:41:9-51:19
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:42:9-52:19
 	android:exported
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:43:13-37
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:44:13-37
 	android:permission
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:44:13-79
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:45:13-79
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:42:13-73
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:43:13-73
 intent-filter#action:name:android.accessibilityservice.AccessibilityService
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:45:13-47:29
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:46:13-48:29
 action#android.accessibilityservice.AccessibilityService
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:46:17-92
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:47:17-92
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:46:25-89
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:47:25-89
 meta-data#android.accessibilityservice
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:48:13-50:72
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:49:13-51:72
 	android:resource
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:50:17-69
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:51:17-69
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:49:17-60
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:50:17-60
 service#com.shieldcore.app.overlay.OverlayService
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:54:9-57:63
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:55:9-61:19
 	android:exported
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:56:13-37
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:57:13-37
 	android:foregroundServiceType
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:57:13-60
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:58:13-55
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:55:13-51
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:56:13-51
+property
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:59:13-60:79
+	android:value
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:60:17-76
+	android:name
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:59:23-82
 receiver#com.shieldcore.app.receiver.BootReceiver
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:60:9-69:20
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:64:9-73:20
 	android:exported
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:62:13-37
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:66:13-37
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:61:13-50
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:65:13-50
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.PACKAGE_REPLACED+data:scheme:package
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:63:13-68:29
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:67:13-72:29
 	android:priority
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:63:28-51
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:67:28-51
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:64:17-79
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:68:17-79
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:64:25-76
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:68:25-76
 action#android.intent.action.MY_PACKAGE_REPLACED
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:65:17-84
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:69:17-84
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:65:25-81
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:69:25-81
 action#android.intent.action.PACKAGE_REPLACED
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:66:17-81
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:70:17-81
 	android:name
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:66:25-78
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:70:25-78
 data
-ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:67:17-50
+ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:71:17-50
 	android:scheme
-		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:67:23-47
+		ADDED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:71:23-47
 uses-sdk
 INJECTED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml
@@ -374,6 +384,10 @@ MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\veera\.gradle\ca
 MERGED from [androidx.activity:activity-compose:1.8.2] C:\Users\veera\.gradle\caches\transforms-3\d06e45e50023e3d0e3ea70608c8e6ecf\transformed\activity-compose-1.8.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\veera\.gradle\caches\transforms-3\590b5525abd3f9a90c42615eaf99da3c\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
 MERGED from [androidx.activity:activity-ktx:1.8.2] C:\Users\veera\.gradle\caches\transforms-3\590b5525abd3f9a90c42615eaf99da3c\transformed\activity-ktx-1.8.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\da57f7b2cd33829e94170b4713b865ad\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\da57f7b2cd33829e94170b4713b865ad\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\012b339cd69a0aab1ec8c7cc14242e67\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\012b339cd69a0aab1ec8c7cc14242e67\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.work:work-runtime-ktx:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\964589c98d306bc99b16c90d3a54e5a9\transformed\work-runtime-ktx-2.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.work:work-runtime-ktx:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\964589c98d306bc99b16c90d3a54e5a9\transformed\work-runtime-ktx-2.9.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:21:5-44
@@ -386,16 +400,10 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\veer
 MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\cc5529ddc109e0d01b073621412c5acd\transformed\lifecycle-livedata-core-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\9056b554b7d07324014e36b04331f78a\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\9056b554b7d07324014e36b04331f78a\transformed\lifecycle-livedata-core-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\9da2987030819b116cb4d8f109dbde56\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\9da2987030819b116cb4d8f109dbde56\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\veera\.gradle\caches\transforms-3\36321377d73b9b66e3d233f579a1fbea\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\veera\.gradle\caches\transforms-3\36321377d73b9b66e3d233f579a1fbea\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\2c705c29df089d07afedd449c6184c24\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\2c705c29df089d07afedd449c6184c24\transformed\lifecycle-livedata-2.7.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\da57f7b2cd33829e94170b4713b865ad\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\da57f7b2cd33829e94170b4713b865ad\transformed\savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\012b339cd69a0aab1ec8c7cc14242e67\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Users\veera\.gradle\caches\transforms-3\012b339cd69a0aab1ec8c7cc14242e67\transformed\savedstate-1.2.1\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\a4a8d3862cb41fa0a515ade2e78117f0\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\a4a8d3862cb41fa0a515ade2e78117f0\transformed\lifecycle-viewmodel-2.7.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\bc41262559046fb33ad2bdbe7a9709ff\transformed\lifecycle-viewmodel-savedstate-2.7.0\AndroidManifest.xml:20:5-44
@@ -422,6 +430,8 @@ MERGED from [androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms
 MERGED from [androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\b093a307018c483ea8927c251519fa46\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\b093a307018c483ea8927c251519fa46\transformed\lifecycle-runtime-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\9da2987030819b116cb4d8f109dbde56\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\9da2987030819b116cb4d8f109dbde56\transformed\lifecycle-viewmodel-ktx-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\f0b53efac017bd9543cb74760d636352\transformed\lifecycle-service-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\f0b53efac017bd9543cb74760d636352\transformed\lifecycle-service-2.7.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\254df29d4659d5271c9d403dc7f48788\transformed\lifecycle-runtime-ktx-2.7.0\AndroidManifest.xml:20:5-44

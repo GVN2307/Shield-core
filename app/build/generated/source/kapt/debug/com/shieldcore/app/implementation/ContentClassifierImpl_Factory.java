@@ -20,20 +20,26 @@ import javax.inject.Provider;
 public final class ContentClassifierImpl_Factory implements Factory<ContentClassifierImpl> {
   private final Provider<Context> contextProvider;
 
-  public ContentClassifierImpl_Factory(Provider<Context> contextProvider) {
+  private final Provider<NetworkModerationService> networkServiceProvider;
+
+  public ContentClassifierImpl_Factory(Provider<Context> contextProvider,
+      Provider<NetworkModerationService> networkServiceProvider) {
     this.contextProvider = contextProvider;
+    this.networkServiceProvider = networkServiceProvider;
   }
 
   @Override
   public ContentClassifierImpl get() {
-    return newInstance(contextProvider.get());
+    return newInstance(contextProvider.get(), networkServiceProvider.get());
   }
 
-  public static ContentClassifierImpl_Factory create(Provider<Context> contextProvider) {
-    return new ContentClassifierImpl_Factory(contextProvider);
+  public static ContentClassifierImpl_Factory create(Provider<Context> contextProvider,
+      Provider<NetworkModerationService> networkServiceProvider) {
+    return new ContentClassifierImpl_Factory(contextProvider, networkServiceProvider);
   }
 
-  public static ContentClassifierImpl newInstance(Context context) {
-    return new ContentClassifierImpl(context);
+  public static ContentClassifierImpl newInstance(Context context,
+      NetworkModerationService networkService) {
+    return new ContentClassifierImpl(context, networkService);
   }
 }

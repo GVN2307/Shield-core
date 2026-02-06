@@ -12,6 +12,7 @@ import com.shieldcore.app.accessibility.ShieldCoreAccessibilityService;
 import com.shieldcore.app.accessibility.ShieldCoreAccessibilityService_MembersInjector;
 import com.shieldcore.app.implementation.ContentClassifierImpl;
 import com.shieldcore.app.implementation.ContentInterceptorImpl;
+import com.shieldcore.app.implementation.NetworkModerationService;
 import com.shieldcore.app.implementation.StateManagerImpl;
 import com.shieldcore.app.implementation.UIOverlayManagerImpl;
 import com.shieldcore.app.overlay.OverlayService;
@@ -526,6 +527,8 @@ public final class DaggerShieldCoreApplication_HiltComponents_SingletonC {
 
     private Provider<ContentInterceptorImpl> contentInterceptorImplProvider;
 
+    private Provider<NetworkModerationService> networkModerationServiceProvider;
+
     private Provider<ContentClassifierImpl> contentClassifierImplProvider;
 
     private Provider<UIOverlayManagerImpl> uIOverlayManagerImplProvider;
@@ -540,8 +543,9 @@ public final class DaggerShieldCoreApplication_HiltComponents_SingletonC {
     private void initialize(final ApplicationContextModule applicationContextModuleParam) {
       this.stateManagerImplProvider = DoubleCheck.provider(new SwitchingProvider<StateManagerImpl>(singletonCImpl, 0));
       this.contentInterceptorImplProvider = DoubleCheck.provider(new SwitchingProvider<ContentInterceptorImpl>(singletonCImpl, 1));
+      this.networkModerationServiceProvider = DoubleCheck.provider(new SwitchingProvider<NetworkModerationService>(singletonCImpl, 3));
       this.contentClassifierImplProvider = DoubleCheck.provider(new SwitchingProvider<ContentClassifierImpl>(singletonCImpl, 2));
-      this.uIOverlayManagerImplProvider = DoubleCheck.provider(new SwitchingProvider<UIOverlayManagerImpl>(singletonCImpl, 3));
+      this.uIOverlayManagerImplProvider = DoubleCheck.provider(new SwitchingProvider<UIOverlayManagerImpl>(singletonCImpl, 4));
     }
 
     @Override
@@ -578,15 +582,18 @@ public final class DaggerShieldCoreApplication_HiltComponents_SingletonC {
       public T get() {
         switch (id) {
           case 0: // com.shieldcore.app.implementation.StateManagerImpl 
-          return (T) new StateManagerImpl();
+          return (T) new StateManagerImpl(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
 
           case 1: // com.shieldcore.app.implementation.ContentInterceptorImpl 
           return (T) new ContentInterceptorImpl();
 
           case 2: // com.shieldcore.app.implementation.ContentClassifierImpl 
-          return (T) new ContentClassifierImpl(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
+          return (T) new ContentClassifierImpl(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule), singletonCImpl.networkModerationServiceProvider.get());
 
-          case 3: // com.shieldcore.app.implementation.UIOverlayManagerImpl 
+          case 3: // com.shieldcore.app.implementation.NetworkModerationService 
+          return (T) new NetworkModerationService();
+
+          case 4: // com.shieldcore.app.implementation.UIOverlayManagerImpl 
           return (T) new UIOverlayManagerImpl(ApplicationContextModule_ProvideContextFactory.provideContext(singletonCImpl.applicationContextModule));
 
           default: throw new AssertionError(id);

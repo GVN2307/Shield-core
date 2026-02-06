@@ -37,9 +37,13 @@ class ContentInterceptorImpl @Inject constructor() : ContentInterceptor {
         if (!isMonitoring) return emptyList()
         
         val packageName = event.packageName?.toString() ?: return emptyList()
-        if (!monitoringPackages.contains(packageName)) return emptyList()
+        if (monitoringPackages.isNotEmpty() && !monitoringPackages.contains("*") && !monitoringPackages.contains(packageName)) {
+            return emptyList()
+        }
 
-        val rootNode = event.source ?: return emptyList()
+        // Requirement 1.1 Expansion: "Scan All Data" - leverage both event source and root window
+        val rootNode = event.source ?: (SystemServiceLocator.getAccessibilityService()?.rootInActiveWindow)
+        if (rootNode == null) return emptyList()
         
         return try {
             val results = mutableListOf<ContentData>()
@@ -59,14 +63,25 @@ class ContentInterceptorImpl @Inject constructor() : ContentInterceptor {
     }
 
     private fun traverseNode(node: AccessibilityNodeInfo, results: MutableList<ContentData>, packageName: String) {
-        val text = node.text?.toString()
-        if (!text.isNullOrBlank()) {
+        val nodeText = node.text?.toString()
+        val nodeDescription = node.contentDescription?.toString()
+        
+        // Strategy: Combine text and description for a deeper "all data" scan
+        val combinedText = buildString {
+            if (!nodeText.isNullOrBlank()) append(nodeText)
+            if (!nodeDescription.isNullOrBlank()) {
+                if (isNotEmpty()) append(" ")
+                append(nodeDescription)
+            }
+        }.trim()
+
+        if (combinedText.isNotBlank()) {
             val nodeBounds = Rect()
             node.getBoundsInScreen(nodeBounds)
             
             if (!nodeBounds.isEmpty) {
                 results.add(ContentData(
-                    text = text,
+                    text = combinedText,
                     metadata = ContentMetadata(),
                     timestamp = System.currentTimeMillis(),
                     sourceApp = packageName,

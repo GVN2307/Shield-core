@@ -31,28 +31,44 @@ class ShieldCoreAccessibilityService : AccessibilityService() {
     override fun onAccessibilityEvent(event: AccessibilityEvent) {
         if (stateManager.getCurrentMode() == SystemMode.DISABLED) return
 
+        // Performance Optimization: Cache current event for feed synchronization
         val contents = contentInterceptor.onAccessibilityEvent(event)
         val currentEventHashes = mutableSetOf<Int>()
         
         for (content in contents) {
-            val contentHash = content.text.hashCode()
+            // Composite Fingerprint: Package + Text Hash + Y-Coordinate Anchor
+            // This prevents collisions when identical text appears in different feed items.
+            val contentFingerprint = "${content.sourceApp}_${content.text.hashCode()}_${content.screenBounds.top}"
+            val contentKey = contentFingerprint.hashCode()
+            
             val result = contentClassifier.classifyText(content.text)
             
             if (result.category != ContentCategory.SAFE && result.category != ContentCategory.UNKNOWN) {
-                currentEventHashes.add(contentHash)
-                val existingOverlayId = activeOverlays[contentHash]
+                currentEventHashes.add(contentKey)
+                val existingOverlayId = activeOverlays[contentKey]
                 
                 if (existingOverlayId != null) {
+                    // Smoothly update position for scrolling content
                     uiOverlayManager.updateOverlayPosition(existingOverlayId, content.screenBounds)
                 } else {
+                    // Create new masking node
                     val newOverlayId = uiOverlayManager.createOverlay(content.screenBounds, content)
-                    activeOverlays[contentHash] = newOverlayId
-                    Log.d(TAG, "🛡️ Masked segment: ${result.category}")
+                    activeOverlays[contentKey] = newOverlayId
+                    
+                    // Requirement 5.5: Privacy-Preserving Logging (Observed not Recorded)
+                    Log.d(TAG, "🛡️ ShieldCore: Blocked [${result.category}] in ${content.sourceApp}")
+                    stateManager.logActivity(ActivityLog(
+                        timestamp = System.currentTimeMillis(),
+                        event = ActivityEvent.CONTENT_BLOCKED,
+                        contentCategory = result.category,
+                        sourceApp = content.sourceApp,
+                        actionTaken = "Dynamic UI Masking"
+                    ))
                 }
             }
         }
         
-        // Reconciliation: Remove overlays that are no longer present in this event
+        // Synchronized Reconciliation: Remove stale overlays instantly
         val iterator = activeOverlays.entries.iterator()
         while (iterator.hasNext()) {
             val entry = iterator.next()
@@ -74,6 +90,9 @@ class ShieldCoreAccessibilityService : AccessibilityService() {
         super.onServiceConnected()
         Log.d(TAG, "Accessibility Service Connected")
         
+        // Register service for deep-scanning access
+        com.shieldcore.app.implementation.SystemServiceLocator.registerService(this)
+        
         // Start monitoring apps configured in StateManager
         val config = stateManager.loadConfiguration()
         contentInterceptor.startMonitoring(config.targetApplications)
@@ -81,6 +100,7 @@ class ShieldCoreAccessibilityService : AccessibilityService() {
     
     override fun onDestroy() {
         super.onDestroy()
+        com.shieldcore.app.implementation.SystemServiceLocator.unregisterService()
         contentInterceptor.stopMonitoring()
         uiOverlayManager.clearAllOverlays()
         activeOverlays.clear()

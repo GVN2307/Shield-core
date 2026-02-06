@@ -18,525 +18,535 @@
 14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 14-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:8:5-77
 14-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:8:22-74
-15    <uses-permission android:name="android.permission.WAKE_LOCK" />
-15-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:9:5-68
-15-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:9:22-65
-16    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-16-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:10:5-81
-16-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:10:22-78
-17
-18    <!-- Camera features -->
-19    <uses-feature
-19-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:13:5-84
-20        android:name="android.hardware.camera"
-20-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:13:19-57
-21        android:required="true" />
-21-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:13:58-81
-22    <uses-feature
-22-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:5-90
-23        android:name="android.hardware.camera.front"
-23-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:19-63
-24        android:required="true" />
-24-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:64-87
-25
-26    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-26-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:5-79
-26-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:22-76
-27
-28    <permission
-28-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
-29        android:name="com.shieldcore.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-29-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
-30        android:protectionLevel="signature" />
-30-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
-31
-32    <uses-permission android:name="com.shieldcore.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-32-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
-32-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
-33    <uses-permission android:name="android.permission.INTERNET" />
-33-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
-33-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:22-64
-34
-35    <application
-35-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:16:5-71:19
-36        android:name="com.shieldcore.app.ShieldCoreApplication"
-36-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:17:9-46
-37        android:allowBackup="true"
-37-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:18:9-35
-38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-38-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
-39        android:dataExtractionRules="@xml/data_extraction_rules"
-39-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:19:9-65
-40        android:debuggable="true"
-41        android:extractNativeLibs="false"
-42        android:fullBackupContent="@xml/backup_rules"
-42-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:20:9-54
-43        android:icon="@mipmap/ic_launcher"
-43-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:21:9-43
-44        android:label="@string/app_name"
-44-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:22:9-41
-45        android:roundIcon="@mipmap/ic_launcher_round"
-45-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:23:9-54
-46        android:supportsRtl="true"
-46-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:24:9-35
-47        android:theme="@style/Theme.ShieldCore" >
-47-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:25:9-48
-48
-49        <!-- Main Activity -->
-50        <activity
-50-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:29:9-38:20
-51            android:name="com.shieldcore.app.ui.MainActivity"
-51-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:30:13-44
-52            android:exported="true"
-52-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:31:13-36
-53            android:label="@string/app_name"
-53-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:32:13-45
-54            android:theme="@style/Theme.ShieldCore" >
-54-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:33:13-52
-55            <intent-filter>
-55-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:34:13-37:29
-56                <action android:name="android.intent.action.MAIN" />
-56-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:35:17-69
-56-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:35:25-66
-57
-58                <category android:name="android.intent.category.LAUNCHER" />
-58-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:36:17-77
-58-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:36:27-74
-59            </intent-filter>
-60        </activity>
-61
-62        <!-- ShieldCore Accessibility Service -->
-63        <service
-63-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:41:9-51:19
-64            android:name="com.shieldcore.app.accessibility.ShieldCoreAccessibilityService"
-64-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:42:13-73
-65            android:exported="false"
-65-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:43:13-37
-66            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
-66-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:44:13-79
-67            <intent-filter>
-67-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:45:13-47:29
-68                <action android:name="android.accessibilityservice.AccessibilityService" />
-68-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:46:17-92
-68-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:46:25-89
-69            </intent-filter>
-70
-71            <meta-data
-71-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:48:13-50:72
-72                android:name="android.accessibilityservice"
-72-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:49:17-60
-73                android:resource="@xml/accessibility_service_config" />
-73-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:50:17-69
-74        </service>
-75
-76        <!-- Overlay Service for UI masking -->
-77        <service
-77-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:54:9-57:63
-78            android:name="com.shieldcore.app.overlay.OverlayService"
-78-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:55:13-51
-79            android:exported="false"
-79-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:56:13-37
-80            android:foregroundServiceType="mediaProjection" />
-80-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:57:13-60
-81
-82        <!-- Boot receiver to restart service -->
-83        <receiver
-83-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:60:9-69:20
-84            android:name="com.shieldcore.app.receiver.BootReceiver"
-84-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:61:13-50
-85            android:exported="false" >
-85-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:62:13-37
-86            <intent-filter android:priority="1000" >
-86-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:63:13-68:29
-86-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:63:28-51
-87                <action android:name="android.intent.action.BOOT_COMPLETED" />
-87-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:64:17-79
-87-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:64:25-76
-88                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
-88-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:65:17-84
-88-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:65:25-81
-89                <action android:name="android.intent.action.PACKAGE_REPLACED" />
-89-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:66:17-81
-89-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:66:25-78
-90
-91                <data android:scheme="package" />
-91-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:67:17-50
-91-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:67:23-47
-92            </intent-filter>
-93        </receiver>
-94
-95        <activity
-95-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\2cbe9dbad03ca9e8209099210ce0db8f\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
-96            android:name="androidx.compose.ui.tooling.PreviewActivity"
-96-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\2cbe9dbad03ca9e8209099210ce0db8f\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
-97            android:exported="true" />
-97-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\2cbe9dbad03ca9e8209099210ce0db8f\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
-98        <activity
-98-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\c94b0a7fa3fa67b0dbc8871727c2e90d\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:23:9-25:39
-99            android:name="androidx.activity.ComponentActivity"
-99-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\c94b0a7fa3fa67b0dbc8871727c2e90d\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:24:13-63
-100            android:exported="true" />
-100-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\c94b0a7fa3fa67b0dbc8871727c2e90d\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:25:13-36
-101
-102        <service
-102-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:9:9-15:19
-103            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
-103-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:10:13-91
-104            android:directBootAware="true"
-104-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:17:13-43
-105            android:exported="false" >
-105-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:11:13-37
-106            <meta-data
-106-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:12:13-14:85
-107                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
-107-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:13:17-114
-108                android:value="com.google.firebase.components.ComponentRegistrar" />
-108-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:14:17-82
-109            <meta-data
-109-->[com.google.mlkit:vision-common:17.2.0] C:\Users\veera\.gradle\caches\transforms-3\08e4c136a279436dd5ecbd7b646f9a90\transformed\vision-common-17.2.0\AndroidManifest.xml:12:13-14:85
-110                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
-110-->[com.google.mlkit:vision-common:17.2.0] C:\Users\veera\.gradle\caches\transforms-3\08e4c136a279436dd5ecbd7b646f9a90\transformed\vision-common-17.2.0\AndroidManifest.xml:13:17-124
-111                android:value="com.google.firebase.components.ComponentRegistrar" />
-111-->[com.google.mlkit:vision-common:17.2.0] C:\Users\veera\.gradle\caches\transforms-3\08e4c136a279436dd5ecbd7b646f9a90\transformed\vision-common-17.2.0\AndroidManifest.xml:14:17-82
-112            <meta-data
-112-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:20:13-22:85
-113                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
-113-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:21:17-120
-114                android:value="com.google.firebase.components.ComponentRegistrar" />
-114-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:22:17-82
-115        </service>
-116
-117        <provider
-117-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:9:9-13:38
-118            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
-118-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:10:13-78
-119            android:authorities="com.shieldcore.app.mlkitinitprovider"
-119-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:11:13-69
-120            android:exported="false"
-120-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:12:13-37
-121            android:initOrder="99" />
-121-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:13:13-35
-122
-123        <activity
-123-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\68be6b4fd66c0cc39dbe84f207237a39\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
-124            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-124-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\68be6b4fd66c0cc39dbe84f207237a39\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+15-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:9:5-89
+15-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:9:22-86
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:10:5-68
+16-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:10:22-65
+17    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+17-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:11:5-81
+17-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:11:22-78
+18
+19    <!-- Camera features -->
+20    <uses-feature
+20-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:5-84
+21        android:name="android.hardware.camera"
+21-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:19-57
+22        android:required="true" />
+22-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:14:58-81
+23    <uses-feature
+23-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:15:5-90
+24        android:name="android.hardware.camera.front"
+24-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:15:19-63
+25        android:required="true" />
+25-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:15:64-87
+26
+27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+27-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:5-79
+27-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:24:22-76
+28
+29    <permission
+29-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+30        android:name="com.shieldcore.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.shieldcore.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+34    <uses-permission android:name="android.permission.INTERNET" />
+34-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:5-67
+34-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:26:22-64
+35
+36    <application
+36-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:17:5-75:19
+37        android:name="com.shieldcore.app.ShieldCoreApplication"
+37-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:18:9-46
+38        android:allowBackup="true"
+38-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:19:9-35
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.12.0] C:\Users\veera\.gradle\caches\transforms-3\b944f9090fe39c2363a93f3ab7b79459\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+40        android:dataExtractionRules="@xml/data_extraction_rules"
+40-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:20:9-65
+41        android:debuggable="true"
+42        android:extractNativeLibs="false"
+43        android:fullBackupContent="@xml/backup_rules"
+43-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:21:9-54
+44        android:icon="@mipmap/ic_launcher"
+44-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:22:9-43
+45        android:label="@string/app_name"
+45-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:23:9-41
+46        android:roundIcon="@mipmap/ic_launcher_round"
+46-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:24:9-54
+47        android:supportsRtl="true"
+47-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:25:9-35
+48        android:theme="@style/Theme.ShieldCore" >
+48-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:26:9-48
+49
+50        <!-- Main Activity -->
+51        <activity
+51-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:30:9-39:20
+52            android:name="com.shieldcore.app.ui.MainActivity"
+52-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:31:13-44
+53            android:exported="true"
+53-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:32:13-36
+54            android:label="@string/app_name"
+54-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:33:13-45
+55            android:theme="@style/Theme.ShieldCore" >
+55-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:34:13-52
+56            <intent-filter>
+56-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:35:13-38:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:36:17-69
+57-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:36:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:37:17-77
+59-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:37:27-74
+60            </intent-filter>
+61        </activity>
+62
+63        <!-- ShieldCore Accessibility Service -->
+64        <service
+64-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:42:9-52:19
+65            android:name="com.shieldcore.app.accessibility.ShieldCoreAccessibilityService"
+65-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:43:13-73
+66            android:exported="false"
+66-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:44:13-37
+67            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" >
+67-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:45:13-79
+68            <intent-filter>
+68-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:46:13-48:29
+69                <action android:name="android.accessibilityservice.AccessibilityService" />
+69-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:47:17-92
+69-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:47:25-89
+70            </intent-filter>
+71
+72            <meta-data
+72-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:49:13-51:72
+73                android:name="android.accessibilityservice"
+73-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:50:17-60
+74                android:resource="@xml/accessibility_service_config" />
+74-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:51:17-69
+75        </service>
+76
+77        <!-- Overlay Service for UI masking (Guardian) -->
+78        <service
+78-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:55:9-61:19
+79            android:name="com.shieldcore.app.overlay.OverlayService"
+79-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:56:13-51
+80            android:exported="false"
+80-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:57:13-37
+81            android:foregroundServiceType="specialUse" >
+81-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:58:13-55
+82            <property
+82-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:59:13-60:79
+83                android:name="android.app.PROPERTY_SPECIAL_USE_FGS_SUBTYPE"
+83-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:59:23-82
+84                android:value="Child safety and dynamic content moderation" />
+84-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:60:17-76
+85        </service>
+86
+87        <!-- Boot receiver to restart service -->
+88        <receiver
+88-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:64:9-73:20
+89            android:name="com.shieldcore.app.receiver.BootReceiver"
+89-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:65:13-50
+90            android:exported="false" >
+90-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:66:13-37
+91            <intent-filter android:priority="1000" >
+91-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:67:13-72:29
+91-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:67:28-51
+92                <action android:name="android.intent.action.BOOT_COMPLETED" />
+92-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:68:17-79
+92-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:68:25-76
+93                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+93-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:69:17-84
+93-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:69:25-81
+94                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+94-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:70:17-81
+94-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:70:25-78
+95
+96                <data android:scheme="package" />
+96-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:71:17-50
+96-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:71:23-47
+97            </intent-filter>
+98        </receiver>
+99
+100        <activity
+100-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\2cbe9dbad03ca9e8209099210ce0db8f\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+101            android:name="androidx.compose.ui.tooling.PreviewActivity"
+101-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\2cbe9dbad03ca9e8209099210ce0db8f\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+102            android:exported="true" />
+102-->[androidx.compose.ui:ui-tooling-android:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\2cbe9dbad03ca9e8209099210ce0db8f\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+103        <activity
+103-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\c94b0a7fa3fa67b0dbc8871727c2e90d\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:23:9-25:39
+104            android:name="androidx.activity.ComponentActivity"
+104-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\c94b0a7fa3fa67b0dbc8871727c2e90d\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:24:13-63
+105            android:exported="true" />
+105-->[androidx.compose.ui:ui-test-manifest:1.5.4] C:\Users\veera\.gradle\caches\transforms-3\c94b0a7fa3fa67b0dbc8871727c2e90d\transformed\ui-test-manifest-1.5.4\AndroidManifest.xml:25:13-36
+106
+107        <service
+107-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:9:9-15:19
+108            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+108-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:10:13-91
+109            android:directBootAware="true"
+109-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:17:13-43
+110            android:exported="false" >
+110-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:11:13-37
+111            <meta-data
+111-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:12:13-14:85
+112                android:name="com.google.firebase.components:com.google.mlkit.vision.face.internal.FaceRegistrar"
+112-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:13:17-114
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.android.gms:play-services-mlkit-face-detection:17.1.0] C:\Users\veera\.gradle\caches\transforms-3\41a1b4ddddbc7f8cd7cfe56396184c8b\transformed\play-services-mlkit-face-detection-17.1.0\AndroidManifest.xml:14:17-82
+114            <meta-data
+114-->[com.google.mlkit:vision-common:17.2.0] C:\Users\veera\.gradle\caches\transforms-3\08e4c136a279436dd5ecbd7b646f9a90\transformed\vision-common-17.2.0\AndroidManifest.xml:12:13-14:85
+115                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+115-->[com.google.mlkit:vision-common:17.2.0] C:\Users\veera\.gradle\caches\transforms-3\08e4c136a279436dd5ecbd7b646f9a90\transformed\vision-common-17.2.0\AndroidManifest.xml:13:17-124
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.mlkit:vision-common:17.2.0] C:\Users\veera\.gradle\caches\transforms-3\08e4c136a279436dd5ecbd7b646f9a90\transformed\vision-common-17.2.0\AndroidManifest.xml:14:17-82
+117            <meta-data
+117-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:20:13-22:85
+118                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+118-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:21:17-120
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:22:17-82
+120        </service>
+121
+122        <provider
+122-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:9:9-13:38
+123            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+123-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:10:13-78
+124            android:authorities="com.shieldcore.app.mlkitinitprovider"
+124-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:11:13-69
 125            android:exported="false"
-125-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\68be6b4fd66c0cc39dbe84f207237a39\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
-126            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-126-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\68be6b4fd66c0cc39dbe84f207237a39\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+125-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:12:13-37
+126            android:initOrder="99" />
+126-->[com.google.mlkit:common:18.5.0] C:\Users\veera\.gradle\caches\transforms-3\5bee4c9616aa04e9e6324d14e994aa7e\transformed\common-18.5.0\AndroidManifest.xml:13:13-35
 127
-128        <meta-data
-128-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\7cd67a45bace35b196755820ad210e0f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
-129            android:name="com.google.android.gms.version"
-129-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\7cd67a45bace35b196755820ad210e0f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
-130            android:value="@integer/google_play_services_version" />
-130-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\7cd67a45bace35b196755820ad210e0f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
-131
-132        <service
-132-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
-133            android:name="androidx.camera.core.impl.MetadataHolderService"
-133-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
-134            android:enabled="false"
-134-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
-135            android:exported="false" >
-135-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
-136            <meta-data
-136-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
-137                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
-137-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
-138                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
-138-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
-139        </service>
-140
-141        <provider
-141-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:29:9-37:20
-142            android:name="androidx.startup.InitializationProvider"
-142-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:30:13-67
-143            android:authorities="com.shieldcore.app.androidx-startup"
-143-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:31:13-68
-144            android:exported="false" >
-144-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:32:13-37
-145            <meta-data
-145-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:34:13-36:52
-146                android:name="androidx.work.WorkManagerInitializer"
-146-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:35:17-68
-147                android:value="androidx.startup" />
-147-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:36:17-49
-148            <meta-data
-148-->[androidx.emoji2:emoji2:1.4.0] C:\Users\veera\.gradle\caches\transforms-3\1565938ec95e33fa6e3eefae446fec86\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
-149                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-149-->[androidx.emoji2:emoji2:1.4.0] C:\Users\veera\.gradle\caches\transforms-3\1565938ec95e33fa6e3eefae446fec86\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
-150                android:value="androidx.startup" />
-150-->[androidx.emoji2:emoji2:1.4.0] C:\Users\veera\.gradle\caches\transforms-3\1565938ec95e33fa6e3eefae446fec86\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
-151            <meta-data
-151-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\8f718bb9a7f02672483432a0cf862eb0\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
-152                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-152-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\8f718bb9a7f02672483432a0cf862eb0\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
-153                android:value="androidx.startup" />
-153-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\8f718bb9a7f02672483432a0cf862eb0\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
-154            <meta-data
-154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-155                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-156                android:value="androidx.startup" />
-156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-157        </provider>
-158
-159        <service
-159-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:39:9-45:35
-160            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
-160-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:40:13-88
-161            android:directBootAware="false"
-161-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:41:13-44
-162            android:enabled="@bool/enable_system_alarm_service_default"
-162-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:42:13-72
-163            android:exported="false" />
-163-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:43:13-37
+128        <activity
+128-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\68be6b4fd66c0cc39dbe84f207237a39\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+129            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+129-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\68be6b4fd66c0cc39dbe84f207237a39\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+130            android:exported="false"
+130-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\68be6b4fd66c0cc39dbe84f207237a39\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+131-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\68be6b4fd66c0cc39dbe84f207237a39\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+132
+133        <meta-data
+133-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\7cd67a45bace35b196755820ad210e0f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+134            android:name="com.google.android.gms.version"
+134-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\7cd67a45bace35b196755820ad210e0f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+135            android:value="@integer/google_play_services_version" />
+135-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\veera\.gradle\caches\transforms-3\7cd67a45bace35b196755820ad210e0f\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+136
+137        <service
+137-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+138            android:name="androidx.camera.core.impl.MetadataHolderService"
+138-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+139            android:enabled="false"
+139-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+140            android:exported="false" >
+140-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+141            <meta-data
+141-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+142                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+142-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+143                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+143-->[androidx.camera:camera-camera2:1.3.1] C:\Users\veera\.gradle\caches\transforms-3\a08a038229400e65dea95fa984f03f64\transformed\camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+144        </service>
+145
+146        <provider
+146-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:29:9-37:20
+147            android:name="androidx.startup.InitializationProvider"
+147-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:30:13-67
+148            android:authorities="com.shieldcore.app.androidx-startup"
+148-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:31:13-68
+149            android:exported="false" >
+149-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:32:13-37
+150            <meta-data
+150-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:34:13-36:52
+151                android:name="androidx.work.WorkManagerInitializer"
+151-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:35:17-68
+152                android:value="androidx.startup" />
+152-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:36:17-49
+153            <meta-data
+153-->[androidx.emoji2:emoji2:1.4.0] C:\Users\veera\.gradle\caches\transforms-3\1565938ec95e33fa6e3eefae446fec86\transformed\emoji2-1.4.0\AndroidManifest.xml:29:13-31:52
+154                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+154-->[androidx.emoji2:emoji2:1.4.0] C:\Users\veera\.gradle\caches\transforms-3\1565938ec95e33fa6e3eefae446fec86\transformed\emoji2-1.4.0\AndroidManifest.xml:30:17-75
+155                android:value="androidx.startup" />
+155-->[androidx.emoji2:emoji2:1.4.0] C:\Users\veera\.gradle\caches\transforms-3\1565938ec95e33fa6e3eefae446fec86\transformed\emoji2-1.4.0\AndroidManifest.xml:31:17-49
+156            <meta-data
+156-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\8f718bb9a7f02672483432a0cf862eb0\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+157                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+157-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\8f718bb9a7f02672483432a0cf862eb0\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+158                android:value="androidx.startup" />
+158-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\veera\.gradle\caches\transforms-3\8f718bb9a7f02672483432a0cf862eb0\transformed\lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+159            <meta-data
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+160                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+161                android:value="androidx.startup" />
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+162        </provider>
+163
 164        <service
-164-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:46:9-52:35
-165            android:name="androidx.work.impl.background.systemjob.SystemJobService"
-165-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:47:13-84
+164-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:39:9-45:35
+165            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+165-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:40:13-88
 166            android:directBootAware="false"
-166-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:48:13-44
-167            android:enabled="@bool/enable_system_job_service_default"
-167-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:49:13-70
-168            android:exported="true"
-168-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:50:13-36
-169            android:permission="android.permission.BIND_JOB_SERVICE" />
-169-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:51:13-69
-170        <service
-170-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:53:9-59:35
-171            android:name="androidx.work.impl.foreground.SystemForegroundService"
-171-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:54:13-81
-172            android:directBootAware="false"
-172-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:55:13-44
-173            android:enabled="@bool/enable_system_foreground_service_default"
-173-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:56:13-77
-174            android:exported="false" />
-174-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:57:13-37
-175
-176        <receiver
-176-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:61:9-66:35
-177            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
-177-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:62:13-88
-178            android:directBootAware="false"
-178-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:63:13-44
-179            android:enabled="true"
-179-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:64:13-35
-180            android:exported="false" />
-180-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:65:13-37
+166-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:41:13-44
+167            android:enabled="@bool/enable_system_alarm_service_default"
+167-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:42:13-72
+168            android:exported="false" />
+168-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:43:13-37
+169        <service
+169-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:46:9-52:35
+170            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+170-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:47:13-84
+171            android:directBootAware="false"
+171-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:48:13-44
+172            android:enabled="@bool/enable_system_job_service_default"
+172-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:49:13-70
+173            android:exported="true"
+173-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:50:13-36
+174            android:permission="android.permission.BIND_JOB_SERVICE" />
+174-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:51:13-69
+175        <service
+175-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:53:9-59:35
+176            android:name="androidx.work.impl.foreground.SystemForegroundService"
+176-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:54:13-81
+177            android:directBootAware="false"
+177-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:55:13-44
+178            android:enabled="@bool/enable_system_foreground_service_default"
+178-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:56:13-77
+179            android:exported="false" />
+179-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:57:13-37
+180
 181        <receiver
-181-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:67:9-77:20
-182            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
-182-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:68:13-106
+181-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:61:9-66:35
+182            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+182-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:62:13-88
 183            android:directBootAware="false"
-183-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:69:13-44
-184            android:enabled="false"
-184-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:70:13-36
-185            android:exported="false" >
-185-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:71:13-37
-186            <intent-filter>
-186-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:73:13-76:29
-187                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
-187-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:17-87
-187-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:25-84
-188                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
-188-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:17-90
-188-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:25-87
-189            </intent-filter>
-190        </receiver>
-191        <receiver
-191-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:78:9-88:20
-192            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
-192-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:79:13-104
-193            android:directBootAware="false"
-193-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:80:13-44
-194            android:enabled="false"
-194-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:81:13-36
-195            android:exported="false" >
-195-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:82:13-37
-196            <intent-filter>
-196-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:84:13-87:29
-197                <action android:name="android.intent.action.BATTERY_OKAY" />
-197-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:17-77
-197-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:25-74
-198                <action android:name="android.intent.action.BATTERY_LOW" />
-198-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:17-76
-198-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:25-73
-199            </intent-filter>
-200        </receiver>
-201        <receiver
-201-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:89:9-99:20
-202            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
-202-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:90:13-104
-203            android:directBootAware="false"
-203-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:91:13-44
-204            android:enabled="false"
-204-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:92:13-36
-205            android:exported="false" >
-205-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:93:13-37
-206            <intent-filter>
-206-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:95:13-98:29
-207                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
-207-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:17-83
-207-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:25-80
-208                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
-208-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:17-82
-208-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:25-79
-209            </intent-filter>
-210        </receiver>
-211        <receiver
-211-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:100:9-109:20
-212            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
-212-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:101:13-103
-213            android:directBootAware="false"
-213-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:102:13-44
-214            android:enabled="false"
-214-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:103:13-36
-215            android:exported="false" >
-215-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:104:13-37
-216            <intent-filter>
-216-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:106:13-108:29
-217                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-217-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:17-79
-217-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:25-76
-218            </intent-filter>
-219        </receiver>
-220        <receiver
-220-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:110:9-121:20
-221            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
-221-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:111:13-88
-222            android:directBootAware="false"
-222-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:112:13-44
-223            android:enabled="false"
-223-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:113:13-36
-224            android:exported="false" >
-224-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:114:13-37
-225            <intent-filter>
-225-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:116:13-120:29
-226                <action android:name="android.intent.action.BOOT_COMPLETED" />
-226-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:64:17-79
-226-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:64:25-76
-227                <action android:name="android.intent.action.TIME_SET" />
-227-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:17-73
-227-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:25-70
-228                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
-228-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:17-81
-228-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:25-78
-229            </intent-filter>
-230        </receiver>
-231        <receiver
-231-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:122:9-131:20
-232            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
-232-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:123:13-99
-233            android:directBootAware="false"
-233-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:124:13-44
-234            android:enabled="@bool/enable_system_alarm_service_default"
-234-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:125:13-72
-235            android:exported="false" >
-235-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:126:13-37
-236            <intent-filter>
-236-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:128:13-130:29
-237                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
-237-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:17-98
-237-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:25-95
-238            </intent-filter>
-239        </receiver>
-240        <receiver
-240-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:132:9-142:20
-241            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
-241-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:133:13-78
-242            android:directBootAware="false"
-242-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:134:13-44
-243            android:enabled="true"
-243-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:135:13-35
-244            android:exported="true"
-244-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:136:13-36
-245            android:permission="android.permission.DUMP" >
-245-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:137:13-57
-246            <intent-filter>
-246-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:139:13-141:29
-247                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
-247-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:17-88
-247-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:25-85
-248            </intent-filter>
-249        </receiver>
-250
-251        <service
-251-->[androidx.room:room-runtime:2.5.0] C:\Users\veera\.gradle\caches\transforms-3\1b0b58bd64b2468f50303ef70e508da6\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
-252            android:name="androidx.room.MultiInstanceInvalidationService"
-252-->[androidx.room:room-runtime:2.5.0] C:\Users\veera\.gradle\caches\transforms-3\1b0b58bd64b2468f50303ef70e508da6\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
-253            android:directBootAware="true"
-253-->[androidx.room:room-runtime:2.5.0] C:\Users\veera\.gradle\caches\transforms-3\1b0b58bd64b2468f50303ef70e508da6\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
-254            android:exported="false" />
-254-->[androidx.room:room-runtime:2.5.0] C:\Users\veera\.gradle\caches\transforms-3\1b0b58bd64b2468f50303ef70e508da6\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
-255        <service
-255-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
-256            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-256-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
-257            android:exported="false" >
-257-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
-258            <meta-data
-258-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
-259                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-259-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
-260                android:value="cct" />
-260-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
-261        </service>
-262        <service
-262-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
-263            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-263-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
-264            android:exported="false"
-264-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
-265            android:permission="android.permission.BIND_JOB_SERVICE" >
-265-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+183-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:63:13-44
+184            android:enabled="true"
+184-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:64:13-35
+185            android:exported="false" />
+185-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:65:13-37
+186        <receiver
+186-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:67:9-77:20
+187            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+187-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:68:13-106
+188            android:directBootAware="false"
+188-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:69:13-44
+189            android:enabled="false"
+189-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:70:13-36
+190            android:exported="false" >
+190-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:71:13-37
+191            <intent-filter>
+191-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:73:13-76:29
+192                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+192-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:17-87
+192-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:74:25-84
+193                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+193-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:17-90
+193-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:75:25-87
+194            </intent-filter>
+195        </receiver>
+196        <receiver
+196-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:78:9-88:20
+197            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+197-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:79:13-104
+198            android:directBootAware="false"
+198-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:80:13-44
+199            android:enabled="false"
+199-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:81:13-36
+200            android:exported="false" >
+200-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:82:13-37
+201            <intent-filter>
+201-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:84:13-87:29
+202                <action android:name="android.intent.action.BATTERY_OKAY" />
+202-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:17-77
+202-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:85:25-74
+203                <action android:name="android.intent.action.BATTERY_LOW" />
+203-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:17-76
+203-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:86:25-73
+204            </intent-filter>
+205        </receiver>
+206        <receiver
+206-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:89:9-99:20
+207            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+207-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:90:13-104
+208            android:directBootAware="false"
+208-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:91:13-44
+209            android:enabled="false"
+209-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:92:13-36
+210            android:exported="false" >
+210-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:93:13-37
+211            <intent-filter>
+211-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:95:13-98:29
+212                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+212-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:17-83
+212-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:96:25-80
+213                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+213-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:17-82
+213-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:97:25-79
+214            </intent-filter>
+215        </receiver>
+216        <receiver
+216-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:100:9-109:20
+217            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+217-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:101:13-103
+218            android:directBootAware="false"
+218-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:102:13-44
+219            android:enabled="false"
+219-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:103:13-36
+220            android:exported="false" >
+220-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:104:13-37
+221            <intent-filter>
+221-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:106:13-108:29
+222                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+222-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:17-79
+222-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:107:25-76
+223            </intent-filter>
+224        </receiver>
+225        <receiver
+225-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:110:9-121:20
+226            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+226-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:111:13-88
+227            android:directBootAware="false"
+227-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:112:13-44
+228            android:enabled="false"
+228-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:113:13-36
+229            android:exported="false" >
+229-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:114:13-37
+230            <intent-filter>
+230-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:116:13-120:29
+231                <action android:name="android.intent.action.BOOT_COMPLETED" />
+231-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:68:17-79
+231-->C:\Users\veera\Desktop\Codes for fun\Aws\app\src\main\AndroidManifest.xml:68:25-76
+232                <action android:name="android.intent.action.TIME_SET" />
+232-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:17-73
+232-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:118:25-70
+233                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+233-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:17-81
+233-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:119:25-78
+234            </intent-filter>
+235        </receiver>
+236        <receiver
+236-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:122:9-131:20
+237            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+237-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:123:13-99
+238            android:directBootAware="false"
+238-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:124:13-44
+239            android:enabled="@bool/enable_system_alarm_service_default"
+239-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:125:13-72
+240            android:exported="false" >
+240-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:126:13-37
+241            <intent-filter>
+241-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:128:13-130:29
+242                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+242-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:17-98
+242-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:129:25-95
+243            </intent-filter>
+244        </receiver>
+245        <receiver
+245-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:132:9-142:20
+246            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+246-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:133:13-78
+247            android:directBootAware="false"
+247-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:134:13-44
+248            android:enabled="true"
+248-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:135:13-35
+249            android:exported="true"
+249-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:136:13-36
+250            android:permission="android.permission.DUMP" >
+250-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:137:13-57
+251            <intent-filter>
+251-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:139:13-141:29
+252                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+252-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:17-88
+252-->[androidx.work:work-runtime:2.9.0] C:\Users\veera\.gradle\caches\transforms-3\ba49661b570ea50b6337a0bd5150ae5f\transformed\work-runtime-2.9.0\AndroidManifest.xml:140:25-85
+253            </intent-filter>
+254        </receiver>
+255
+256        <service
+256-->[androidx.room:room-runtime:2.5.0] C:\Users\veera\.gradle\caches\transforms-3\1b0b58bd64b2468f50303ef70e508da6\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+257            android:name="androidx.room.MultiInstanceInvalidationService"
+257-->[androidx.room:room-runtime:2.5.0] C:\Users\veera\.gradle\caches\transforms-3\1b0b58bd64b2468f50303ef70e508da6\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+258            android:directBootAware="true"
+258-->[androidx.room:room-runtime:2.5.0] C:\Users\veera\.gradle\caches\transforms-3\1b0b58bd64b2468f50303ef70e508da6\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+259            android:exported="false" />
+259-->[androidx.room:room-runtime:2.5.0] C:\Users\veera\.gradle\caches\transforms-3\1b0b58bd64b2468f50303ef70e508da6\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+260        <service
+260-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+261            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+261-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+262            android:exported="false" >
+262-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+263            <meta-data
+263-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+264                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+264-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+265                android:value="cct" />
+265-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\veera\.gradle\caches\transforms-3\023d2a0e2a975542776ebb0b3a25141a\transformed\transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
 266        </service>
-267
-268        <receiver
-268-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
-269            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-269-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
-270            android:exported="false" />
-270-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
-271        <receiver
-271-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-272            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-272-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-273            android:directBootAware="false"
-273-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-274            android:enabled="true"
-274-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-275            android:exported="true"
-275-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-276            android:permission="android.permission.DUMP" >
-276-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-277            <intent-filter>
-277-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-278                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-278-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-278-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-279            </intent-filter>
-280            <intent-filter>
-280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-281                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-281-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-281-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-282            </intent-filter>
-283            <intent-filter>
-283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-284                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-284-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-284-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-285            </intent-filter>
-286            <intent-filter>
-286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-287                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-287-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-287-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-288            </intent-filter>
-289        </receiver>
-290    </application>
-291
-292</manifest>
+267        <service
+267-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:26:9-30:19
+268            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+268-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:27:13-117
+269            android:exported="false"
+269-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:28:13-37
+270            android:permission="android.permission.BIND_JOB_SERVICE" >
+270-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:29:13-69
+271        </service>
+272
+273        <receiver
+273-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:32:9-34:40
+274            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+274-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:33:13-132
+275            android:exported="false" />
+275-->[com.google.android.datatransport:transport-runtime:2.2.6] C:\Users\veera\.gradle\caches\transforms-3\26c4285e04a0ea4acc266f8757e1cb54\transformed\transport-runtime-2.2.6\AndroidManifest.xml:34:13-37
+276        <receiver
+276-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+277            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+277-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+278            android:directBootAware="false"
+278-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+279            android:enabled="true"
+279-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+280            android:exported="true"
+280-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+281            android:permission="android.permission.DUMP" >
+281-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+282            <intent-filter>
+282-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+283                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+283-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+284            </intent-filter>
+285            <intent-filter>
+285-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+286                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+286-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+287            </intent-filter>
+288            <intent-filter>
+288-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+289                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+289-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+289-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+290            </intent-filter>
+291            <intent-filter>
+291-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+292                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+292-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\veera\.gradle\caches\transforms-3\28dc8acf582aea48a7c7ebb59ed797d4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+293            </intent-filter>
+294        </receiver>
+295    </application>
+296
+297</manifest>
