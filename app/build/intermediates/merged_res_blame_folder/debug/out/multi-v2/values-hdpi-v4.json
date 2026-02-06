@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.shieldcore.app-mergeDebugResources-64:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\veera\\.gradle\\caches\\transforms-3\\4638f5da42664bfbd683e4fe1e001425\\transformed\\appcompat-1.1.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}
